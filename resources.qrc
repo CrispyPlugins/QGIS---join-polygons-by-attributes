@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/JoinByAttribute" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

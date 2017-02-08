@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Join by Attribute
+qgisMinimumVersion=2.0
+description=This plugin joins polygons with the same attribute.
+version=0.1
+author=crispy Plugins
+email=crispy.plugins@t-online.de
+
+about=This plugin shall help you to join polygons automatically by a certain attribute, as I did not find a plugin to do this task. This plugin is in its developing stage and my first try to program my own plugin.
+
+tracker=https://github.com/CrispyPlugins/QGIS---join-polygons-by-attributes/issues
+repository=https://github.com/CrispyPlugins/QGIS---join-polygons-by-attributes
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=https://github.com/CrispyPlugins/QGIS---join-polygons-by-attributes
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
